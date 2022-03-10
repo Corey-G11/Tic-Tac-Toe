@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+body {
+  margin: 0;
+  font-family:Lobster;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: wheat;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.board{
+  text-align:center;
+  margin:auto;
+  
+}
+
+.board-row{
+  display:flex;
+  justify-content: center;
+  
+}
+
+.btn{
+  height:120px;
+  width:120px;
+  font-size: 50px;
+  background : linear-gradient(rgb(255, 255, 255), rgb(12, 5, 5));
+}
+
+.App{
+  width:80%;
+  margin:auto;
+}
+
+.header{
+  text-align:center;
+  font-size:40px;
+  text-shadow: 2px 2px 4px #bbb;
+}
+
+.hide{
+  display:none;
+};
